@@ -1,0 +1,182 @@
+/* montserrat-regular - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+       url('../fonts/montserrat-v14-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+       url('../fonts/montserrat-v14-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v14-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-regular - cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/oswald-v29-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v29-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* oswald-600 - cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/oswald-v29-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v29-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #f4f4fc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 60px 0;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.rules__title {
+    position: relative;
+    margin-bottom: 70px;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    color: #222222;
+    letter-spacing: .02em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rules__title:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 250px;
+    top: 50%;
+    left: 5%;
+    background-color: #222;
+}
+
+.rules__title:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 250px;
+    top: 50%;
+    right: 5%;
+    background-color: #222;
+}
+
+.rules__wrapper-item {
+    margin-bottom: 50px;
+}
+
+.rules__wrapper-title {
+    margin-bottom: 20px;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: .02em;
+    color: #333;
+}
+
+.rules__wrapper-content {
+    display: flex;
+    margin-left: 26px;
+}
+
+.rules__wrapper-pic {
+    width: 35px;
+    height: 35px;
+}
+
+.rules__wrapper-text {
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: .02em;
+    line-height: 23px;
+}
+
+.header__buttons {
+    text-align: center;
+}
+
+.header__btn {
+    display: inline-block;
+    padding: 10px 0;
+    width: 200px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: .01em;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.rules__note-title {
+    color: #DF3838;
+}
+
+.rules__note {
+    color: #DF3838;
+}
+
+.btn-rules {
+    margin-right: 70px;
+    background-color: #8293AC;
+}
+
+.btn-rules:hover {
+    background-color: #68768B;
+    transition: all 0.5s ease;
+}
+
+.btn-game {
+    background-color: #293B9A;
+}
+
+.btn-game:hover {
+    background-color: #213081;
+    transition: all 0.5s ease;
+}
